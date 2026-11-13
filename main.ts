@@ -15,7 +15,7 @@ import { join } from 'node:path';
 // its nose in a sunny meadow, 2 = old fisherman laughing with arms wide as a
 // dolphin leaps beside his boat at sunrise, 3 = tiny robot reading a glowing
 // storybook to a sleepy smiling kitten under fairy lights.
-const CANDIDATE = 3;
+const CANDIDATE = 2;
 if (!Number.isInteger(CANDIDATE) || ![1, 2, 3].includes(CANDIDATE)) {
   throw new Error(`CANDIDATE must be 1, 2 or 3, got ${CANDIDATE}`);
 }
